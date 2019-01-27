@@ -1,0 +1,56 @@
+h1 {
+    border: 1px solid rgb(26, 5, 75);
+    padding: 100px;
+    font-size:80px; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:rgb(26, 5, 75);
+    text-align:center;
+    text-anchor: end;
+    text-shadow: 3px 2px rgb(18, 243, 29);
+    word-spacing: 70px;
+    letter-spacing: 15px;
+    background-image: url(./assets/cage.jpg);
+}
+img.absolute {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    width: 200px;
+    height: 150px;
+      }
+nav {
+    float: left;
+    width: 30%;
+    height: 700px; 
+    background: rgb(245, 205, 205);
+    }
+
+nav ul {
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 165%;
+    padding: 50;
+}
+
+article {
+    float: right;
+    width: 70%;
+    background-color: #a7f879;
+    height: 700px;
+    font-size: 140%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #777;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
